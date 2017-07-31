@@ -1,0 +1,2 @@
+#!/bin/sh
+exec socat -ls tcp4-listen:80,reuseaddr,fork tcp4:localhost:3000
