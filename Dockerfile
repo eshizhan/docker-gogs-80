@@ -1,5 +1,5 @@
 FROM gogs/gogs:latest
-MAINTAINER eshizhan <eshizhan@126.com>
+LABEL maintainer="eshizhan <eshizhan@126.com>"
 
 COPY socat80 /app/gogs/docker/s6/socat80/run
 RUN chmod +x /app/gogs/docker/s6/socat80/run
